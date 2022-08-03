@@ -1,16 +1,57 @@
-
+/* $('#mymenu').load('navigation.html'); */
 span.icon-thumbnail i.material-icons {
 	color: #888;
 }
 ..active span.icon-thumbnail i.material-icons {
 	color: #555;
 }
+.jumbotron {
+    margin-bottom: 1rem !important;
+}
+h1.page-title {
+	font-size: 24px;
+}
+h1.page-title span {
+	display:  block;
+	font-size: 14px;
+	line-height: 17px;
+	font-style: italic;
+}
+h4.page-subtitle {
+	font-size: 19px;
+	line-height: 27px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+.rDivider {
+	border-right: 1px solid #ddd;
+}
+.material-icons.fs-21 {
+	color: #777;
+}
+.breadcrumb {
+	padding:  5px 0 !important;
+}
+.bg-lgrey {
+	background-color: #eee;
+}
 .bg-grey {
 	background-color: #ccc;
+}
+.fs-10 {
+	font-size: 10px;
+	line-height: 12px;
+}
+.fs-12 > * {
+	font-size: 12px;
 }
 .fs-18 {
 	font-size: 18px !important;
 	line-height: 24px !important;
+}
+.fs-21 {
+	font-size: 21px !important;
+	line-height: 21px !important;
 }
 #instaGallery{
 	max-height: 336px !important;
@@ -48,6 +89,98 @@ span.icon-thumbnail i.material-icons {
 .welcome {
 	max-height: 477.56px;
 }
+.no-padding {
+	padding: 0 !important;
+}
+.p-l-0 {
+	padding-left: 0 !important;
+}
+.p-r-0 {
+	padding-right: 0 !important;
+}
+.p-l-5 {
+	padding-left: 5px !important;
+}
+.p-r-5 {
+	padding-right: 5px !important;
+}
+.card img.card-img-top {
+	max-height: 168px !important;
+}
+.tb {
+	border-top: 1px solid #e5e5e5;
+}
+.tbb {
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron > .tbb {
+	background-color: #eee;
+	border-bottom: none;
+}
+.bottom-menu img {
+	max-width:  140px;
+}
+
+/*******
+******** WIDGETS
+*******/
+
+.widget-1-wrapper {
+	max-height: 376px;
+}
+.widget-2-wrapper {
+	max-height: 256px;
+}
+
+.widget-1:after {
+    background-image: url(../../content/demo/main.jpg);
+    background-size: cover;
+    content: " ";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.69;
+}
+
+/*******
+******** PRODUCTS
+*******/
+
+.product-media {
+
+}
+.product-media > div {
+	overflow: hidden;
+	max-height: 240px;
+}
+.product-media > div > img {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+}
+.product-price p {
+	font-size: 48px;
+}
+.product-price p sup {
+}
+i.social-icons-* {
+	display: none;
+}
+
+/*******
+******** RESPONSIVE
+*******/
+
+@media (min-width: 1600px) {
+	.lg-p-l-90 {
+		padding-left: 90px;
+	}
+}
+
 @media (min-width: 992px) {
 	.flebox .cols .col-lg-12 {
 		min-height: 40%;
