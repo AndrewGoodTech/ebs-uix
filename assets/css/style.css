@@ -10,6 +10,7 @@ span.icon-thumbnail i.material-icons {
 }
 h1.page-title {
 	font-size: 24px;
+	padding-top: 5px;
 }
 h1.page-title span {
 	display:  block;
@@ -23,7 +24,10 @@ h4.page-subtitle {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 10px;
 }
-.rDivider {
+.overlay .overlay-brand {
+    margin-left: 0px;
+}
+..rDivider {
 	border-right: 1px solid #ddd;
 }
 .material-icons.fs-21 {
@@ -118,8 +122,15 @@ h4.page-subtitle {
 	background-color: #eee;
 	border-bottom: none;
 }
+.bottom-menu {
+	margin-top: 20px;
+}
 .bottom-menu img {
 	max-width:  140px;
+}
+.dynatree-container a {
+	z-index: 30;
+	position: relative;
 }
 
 /*******
@@ -132,9 +143,7 @@ h4.page-subtitle {
 .widget-2-wrapper {
 	max-height: 256px;
 }
-
-.widget-1:after {
-    background-image: url(../../content/demo/main.jpg);
+.widget:after, .widget-1:after {
     background-size: cover;
     content: " ";
     left: 0;
@@ -143,7 +152,42 @@ h4.page-subtitle {
     bottom: 0;
     position: absolute;
     z-index: 0;
-    opacity: 0.69;
+    opacity: 0.49;
+}
+.widget-1:after {
+    background-image: url(../../content/demo/main.jpg);
+}
+.widget-2:after {
+    background-image: url(../../content/demo/main1.jpeg);
+}
+.widget-3:after {
+    background-image: url(../../content/demo/main2.jpeg);
+}
+.feed h3 {
+	line-height: 24px !important;
+	margin-bottom: 0px !important;
+}
+.feed p {
+	padding-bottom: 10px;
+}
+#feed_bundles .widget h3 {
+	font-size: 21 !important;
+}
+#feed_cats .widget h3 {
+	font-size: 18 !important;
+}
+#feed_projects .card-content {
+	max-height:  150px !important;
+	overflow: hidden;
+}
+
+
+/*******
+******** GALLERY
+*******/
+
+.gallery {
+    margin: -10px auto 0 0 !important;
 }
 
 /*******
@@ -227,6 +271,8 @@ i.social-icons-* {
 	}
 	.md-p-r-0 {
 	    padding-right: 0px !important;
+	}.md-m-t-10 {
+	    margin-top: 10px !important;
 	}
 }
 
