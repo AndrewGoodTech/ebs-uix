@@ -159,17 +159,18 @@
                  <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item"><a href="#">Resources</a></li>
-                  <li class="breadcrumb-item active">Blog</li>
+                  <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                  <li class="breadcrumb-item active">Tag</li>
                 </ol>
               </div>
             </div>
             <div class="container-fluid container-fixed-lg sm-p-l-0 sm-p-r-0">
-              <h1 class="page-title">Blog</h1>
+              <h1 class="page-title">Blog: <em>Tag</em></h1>
             </div>
           </div>
           <div class="container-fluid full-width">
             <div class="row m-t-10">
-              <div class="col-lg-12">
+              <div class="col-lg-9">
                 <div class="row">
                   <div class="col-lg-4 col-md-6 d-flex flex-column">
                     <div class="card social-card share share-other full-width m-b-10 d-flex flex-1 full-height no-border sm-vh-75" data-social="item">
@@ -452,9 +453,49 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3"></div>
+              <div class="col-lg-3">
+                <h6>Popular</h6>
+                <div class="card social-card share share-other full-width m-b-10 no-border sm-vh-75" data-social="item">
+                  <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+                  </div>
+                  <div class="card-content flex-1" data-pages-bg-image="content/demo/blog1.jpeg">
+                    <img src="content/demo/blog1.jpeg" />
+                  </div>
+                  <div class="card-description">
+                    <p><a href="#">Title</a></p>
+                  </div>
+                  <div class="card-footer clearfix">
+                    <div class="time">Blog, Category</div>
+                  </div>
+                </div>
+                <div class="card social-card share share-other full-width m-b-10 no-border sm-vh-75" data-social="item">
+                  <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+                  </div>
+                  <div class="card-content flex-1" data-pages-bg-image="content/demo/blog1.jpeg">
+                    <img src="content/demo/blog1.jpeg" />
+                  </div>
+                  <div class="card-description">
+                    <p><a href="#">Title</a></p>
+                  </div>
+                  <div class="card-footer clearfix">
+                    <div class="time">Blog, Category</div>
+                  </div>
+                </div>
+                <div class="card social-card share share-other full-width m-b-10 no-border sm-vh-75" data-social="item">
+                  <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+                  </div>
+                  <div class="card-content flex-1" data-pages-bg-image="content/demo/blog1.jpeg">
+                    <img src="content/demo/blog1.jpeg" />
+                  </div>
+                  <div class="card-description">
+                    <p><a href="#">Title</a></p>
+                  </div>
+                  <div class="card-footer clearfix">
+                    <div class="time">Blog, Category</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="feed_projects" class="row"></div>
           </div>
           <div class="bottom-menu container-fluid">
             <div class="card card-transparent">
@@ -551,9 +592,6 @@
     <script>
       $(document).ready(function () {
         $('#eco_footer').load('assets/inc/footer.html');
-        $('#feed_blog').load('assets/inc/feed-blog.html');
-        $('#feed_bundles').load('assets/inc/feed-bundles.html');
-        $('#feed_cats').load('assets/inc/feed-cats.html');
         $('#feed_projects').load('assets/inc/feed-projects.html');
       });
     </script>
