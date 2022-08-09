@@ -10,7 +10,7 @@ span.icon-thumbnail i.material-icons {
 }
 h1.page-title {
 	font-size: 24px;
-	padding-top: 5px;
+	padding-top: 25px;
 }
 h1.page-title span {
 	display:  block;
@@ -222,6 +222,9 @@ i.social-icons-* {
 @media (min-width: 1600px) {
 	.lg-p-l-90 {
 		padding-left: 90px;
+	}
+	.level-top-29 {
+		margin-top:  -29px;
 	}
 }
 
