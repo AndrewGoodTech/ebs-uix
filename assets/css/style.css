@@ -111,6 +111,11 @@ h4.page-subtitle {
 .card img.card-img-top {
 	max-height: 168px !important;
 }
+.card-sidebar {
+	padding-left: 20px;
+	padding-top: 15px;
+	border-left: 1px solid #ddd;
+}
 .tb {
 	border-top: 1px solid #e5e5e5;
 }
