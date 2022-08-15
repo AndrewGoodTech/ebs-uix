@@ -137,6 +137,11 @@ h4.page-subtitle {
 	z-index: 30;
 	position: relative;
 }
+img.contain {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
 
 /*******
 ******** WIDGETS
@@ -212,7 +217,7 @@ h4.page-subtitle {
 	min-height: 100%;
 }
 .product-price p {
-	font-size: 48px;
+	font-size: 32px;
 }
 .product-price p sup {
 }
