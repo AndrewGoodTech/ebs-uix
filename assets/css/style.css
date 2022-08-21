@@ -1,12 +1,6 @@
 hr {
 	 margin: 20px 0;
 }
-hr.minimal {
-	margin: 0;
-}
-.horizontal-app-menu .header .header-md-height {
-    height: 30px;
-}
 .welcome ul {
   list-style-type: none;
   margin: 0;
