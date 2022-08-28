@@ -91,6 +91,9 @@ h1.page-title span {
 	font-size:  18px;
 	line-height: 23px;
 }
+.separator {
+	margin-bottom:  20px;
+}
 
 /* Font Sizing */
 
@@ -104,7 +107,7 @@ h1.page-title span {
 .fs-15 {font-size: 15px !important}
 .fs-16 {font-size: 16px !important}
 .fs-17 {font-size: 17px !important}
-.fs-18 {font-size: 18px !important}
+.fs-18 {font-size: 18px !important; line-height: 25px !important;}
 .fs-19 {font-size: 19px !important}
 .fs-20 {font-size: 20px !important}
 .fs-21 {font-size: 21px !important}
